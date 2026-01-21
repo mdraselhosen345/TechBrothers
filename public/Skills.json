@@ -1,0 +1,37 @@
+{
+  "skills": {
+    "hardware_support": [
+      "Desktop & Laptop Troubleshooting",
+      "Hardware Installation",
+      "RAM / HDD / SSD Replacement",
+      "Printer Setup & Troubleshooting",
+      "Networking Cable & Router Setup"
+    ],
+    "software_support": [
+      "Windows Installation",
+      "Software Installation & Configuration",
+      "Driver Installation",
+      "Virus & Malware Removal",
+      "System Performance Optimization"
+    ],
+    "network_support": [
+      "LAN Setup",
+      "WiFi Configuration",
+      "IP Configuration",
+      "Basic Network Troubleshooting"
+    ]
+  },
+  "responsibilities": [
+    "User Technical Support",
+    "Hardware & Software Issue Solving",
+    "System Maintenance",
+    "Data Backup & Recovery",
+    "IT Asset Management"
+  ],
+  "tools_os": [
+    "Windows 10",
+    "Windows 11",
+    "MS Office",
+    "Remote Support Tools"
+  ]
+}

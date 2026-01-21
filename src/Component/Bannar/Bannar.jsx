@@ -28,7 +28,7 @@ const Bannar = () => {
                          <div className='md:w-1/2 w-full mt-8 md:mt-0 flex justify-center items-center'>
                               <div className='relative inline-block '>
                                   <img className='w-full max-w-[320px] sm:max-w-[400px] md:max-w-[640px] mt-19 md:top-3' src={sitePNg} alt="" />
-                                  <img className='absolute bottom-8 pl-18 md:left-[30px]  w-[250px] top-0.5 sm:top-0 sm:bottom-5 sm:w-[180px] sm:right-[50px] md:w-[359px] h-auto' src={RaselPng} alt="" /> 
+                                  <img className='absolute bottom-8 pl-18 md:left-[30px]  w-[250px] top-0.5 sm:top-0 sm:bottom-5 sm:w-[280px] sm:right-[50px] md:w-[359px] h-auto' src={RaselPng} alt="" /> 
                                   {/* <img className=" absolute bottom-8 sm:bottom-10 md:bottom-12 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-10 w-[150px] sm:w-[250px] md:w-[365px] h-auto" src={RaselPng} alt=""/> */}
 
                               </div>

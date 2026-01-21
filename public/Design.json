@@ -1,0 +1,33 @@
+{
+  "services": {
+    "design": [
+      "Web Design",
+      "UI/UX Design",
+      "Responsive Design"
+    ],
+    "development": [
+      "Web Development",
+      "Static Website",
+      "Dynamic Website",
+      "Custom Website Development",
+      "Frontend Development"
+    ]
+  },
+  "responsive_support": [
+    "Mobile",
+    "Tablet",
+    "Desktop"
+  ],
+  "technologies": {
+    "frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "frameworks_libraries": [
+      "React",
+      "Vue",
+      "Bootstrap"
+    ]
+  }
+}

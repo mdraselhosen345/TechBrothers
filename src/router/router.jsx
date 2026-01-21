@@ -4,6 +4,7 @@ import Home from '../Component/Home/Home'
 import Footer from '../Component/Footer/Footer';
 import Navbar from "../Component/Navbar/Navbar";
 import Bannar from "../Component/Bannar/Bannar";
+import Services from "../Component/Services/Services";
 
 export const router = createBrowserRouter([
     {
@@ -23,9 +24,14 @@ export const router = createBrowserRouter([
                 Component: Bannar
             },
             {
+                path: "Services",
+                Component: Services
+            },
+            {
                path: "Footer",
                Component: Footer
             }
+
         ]
     },
 ]);
