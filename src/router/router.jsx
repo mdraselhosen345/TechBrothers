@@ -5,6 +5,7 @@ import Footer from '../Component/Footer/Footer';
 import Navbar from "../Component/Navbar/Navbar";
 import Bannar from "../Component/Bannar/Bannar";
 import Services from "../Component/Services/Services";
+import About from "../Component/About/About";
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
             {
                 path: "Services",
                 Component: Services
+            },
+            {
+                path: "About",
+                Component: About
             },
             {
                path: "Footer",
