@@ -13,13 +13,13 @@ const Services = () => {
     
 
     return (
-        <div className='mt-5'>
+        <div className='mt-5 mb-10'>
             {/* heding section */}
             <div className='text-center'>
                 <h1 className='sm:text-4xl md:text-5xl text-3xl pt-5 gap-3 fira-sans-extrabold text-[#fabd44]'> My <span className='text-[#fd5d3d]'>Services</span></h1>
                 <h2 className='md:text-xl sm:text-lg lg:text-2xl font-bold pt-3 fira-sans-extralight-italic text-[#C4C4C4]'>Comprehensive digital solutions to your business needs</h2>
             </div>
-             <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto mt-10 max-w-5xl'>
+             <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto gap-5  mt-10 max-w-5xl'>
                  {/* left site  */}
                      <div className='h-auto md:h-[400px] md:w-[400px] w-full bg-[#033f88] rounded-xl shadow-cyan-500 shadow-2xl'>
                           <h1 className='text-[26px] font-semibold text-[#ADADAD] pl-4 pt-2'>Web Design & Development Services</h1>
