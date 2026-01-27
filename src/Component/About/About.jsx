@@ -15,7 +15,6 @@ const About = () => {
                           <h3 className='pt-2 text-[#808080]'>rashel099009@gmail.com</h3>
                              <div className='sm:gap-5 mt-4 md:mt-5'>
                                  <button className="btn btn-primary rounded-3xl text-sm sm:text-base fire-sans-regular">Download CV</button>
-                              
                              </div>
                    </div>
              </div>

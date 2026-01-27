@@ -4,45 +4,107 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { MdAccessTime } from "react-icons/md";
+import { IoIosChatboxes } from "react-icons/io";
 
 const Contact = () => {
     return (
-        <div className='border-2 flex mx-auto mt-15 border-red-500 max-w-6xl h-[550px]'>
-            <div className='flex gap-5'>
-                     {/* left site */}
-                   <div className=' w-[250px] bg-blue-950 rounded-t-full ml-7 mt-7 mr-7 '>
-                        <div className=' h-[200px] ml-6 mt-8 w-[200px]'>
-                            <img src={imageRasel} className='rounded-full border-3 border-[#C4C4C4]' alt="" />
-                        </div>
-                        <div className='mt-25 '>
-                               <div className='pl-5 pb-3 flex gap-3 flex justify-center'>                                    
-                                    <h1 className='text-2xl'>Md : Rasel Hossen </h1>
-                               </div>
-                               <div className='pl-5 pt-2 flex gap-3'>
-                                    <FaLocationDot  size={20}/>
-                                    <h1>Dhaka, Bangladesh </h1>
-                               </div>
-                               <div className='pl-5 flex gap-3 pt-2'>
-                                     <FaPhoneVolume size={20}/>
-                                     <h1>01782299570</h1>
-                               </div>
-                               <div className='pl-5 flex gap-3 pt-2'>
-                                     <FaWhatsapp size={20}/>
-                                     <h1>01782299570</h1>
-                               </div>
-                               <div className='pl-5 flex gap-3 pt-2'>
-                                     <BiLogoGmail size={20}/>
-                                     <h1>rashel099009@gmail.com</h1>
-                               </div>
-                        </div>
-                   </div>
+ <div className='flex flex-col lg:flex-row mx-auto mt-15 max-w-6xl h-auto lg:h-[550px] gap-5 px-4'>
+  {/* Left side */}
+  <div className='w-full lg:w-[250px] bg-blue-950 shadow-2xl shadow-black rounded-t-full mt-7 lg:ml-7 lg:mr-7 flex flex-col items-center lg:items-start'>
+    <div className='h-[200px] w-[200px] mt-8 ml-5 '>
+      <img src={imageRasel} className='rounded-full border-3 border-[#C4C4C4]' alt="" />
+    </div>
+    <div className='mt-20 pl-5  text-center lg:text-left'>
+      <h1 className='text-2xl text-[#DBDBDB] fira-sans-medium-italic mt-4'>Md : Rasel Hossen</h1>
+      <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
+        <FaLocationDot className='text-[#ADADAD]' size={20}/>
+        <span className='text-[#ADADAD] text-sm'>Dhaka, Bangladesh</span>
+      </div>
+      <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
+        <FaPhoneVolume className='text-[#ADADAD]' size={20}/>
+        <span className='text-[#ADADAD] text-sm'>01782299570</span>
+      </div>
+      <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
+        <FaWhatsapp className='text-[#ADADAD]' size={20}/>
+        <span className='text-[#ADADAD] text-sm'>01782299570</span>
+      </div>
+      <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
+        <BiLogoGmail className='text-[#ADADAD]' size={20}/>
+        <span className='text-[#ADADAD] text-sm'>rashel099009@gmail.com</span>
+      </div>
+    </div>
+  </div>
 
+  {/* Right side */}
+  <div className='w-full lg:w-[800px] shadow-2xl shadow-black rounded-t-4xl bg-blue-950 mt-5 lg:mt-0 flex flex-col px-5 py-5'>
+    <div>
+      <h1 className='text-3xl sm:text-4xl lg:text-5xl fira-sans-black text-[#fabd44]'>Contact & <span className='text-[#fd5d3d]'>Information</span></h1>
+      <p className='text-sm sm:text-base lg:text-lg text-[#ADADAD] pt-3 lg:pt-5 fira-sans-extralight-italic'>
+        I am a Frontend Web Developer & IT Support Professional focused on building responsive web interfaces and providing reliable hardware, software, and network support.
+      </p>
+      <div className='mt-6'>
+        <button className="btn btn-primary rounded-3xl text-[#DBDBDB] text-sm sm:text-base fira-sans-regular">Download CV</button>
+      </div>
+    </div>
 
-                   <div className='border-2 border-green-500'>
-
-                   </div>
-            </div>
+    <div className='flex flex-col lg:flex-row justify-between gap-5 mt-12'>
+      {/* Social Media */}
+      <div className='bg-[#001b3d] rounded-2xl w-full lg:w-[250px] h-auto lg:h-[250px] p-4'>
+        <h1 className='text-xl fira-sans-semibold-italic text-[#DBDBDB]'>Social Media</h1>
+        <div className='flex gap-3 pt-4 text-[#ADADAD] items-center'>
+          <FaLinkedin size={25}/> 
+          <a href="">LinkedIn</a>
         </div>
+        <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
+          <FaSquareGithub size={25}/> 
+          <a href="">GitHub</a>
+        </div>
+        <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
+          <FaFacebookSquare size={25}/> 
+          <a href="">Facebook</a>
+        </div>
+        <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
+          <FaTwitterSquare size={25}/> 
+          <a href="">Twitter</a>
+        </div>
+      </div>
+
+      {/* Working Place */}
+      <div className='bg-[#001b3d] rounded-2xl w-full lg:w-[250px] h-auto lg:h-[250px] p-4'>
+        <h1 className='text-xl fira-sans-semibold-italic text-[#DBDBDB]'>Working Place</h1>
+        <div className='flex gap-3 pt-4 text-[#ADADAD] items-center'>
+          <FaLocationDot size={25}/> 
+          <span className='text-sm'>Daffodil International University</span>
+        </div>
+        <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
+          <MdAccessTime size={25}/>
+           <span className='text-sm'>Sat - Thu : 8:00AM - 4:00PM</span>
+        </div>
+        <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
+          <MdAccessTime size={25}/> 
+          <span className='text-sm'>IT Support Professional</span>
+        </div>
+      </div>
+
+      {/* Chat Support */}
+      <div className='bg-[#001b3d] rounded-2xl w-full lg:w-[470px] h-auto lg:h-[250px] p-5'>
+        <div className='flex gap-3 items-center'>
+          <IoIosChatboxes size={40}/> <h1 className='text-2xl fira-sans-semibold-italic text-[#DBDBDB]'>Chat Support</h1>
+        </div>
+        <p className='text-[13px] mt-1 text-[#ADADAD]'>Get Instant Answer From Our Chat</p>
+        <div className='flex justify-center mt-4'>
+          <button className="btn btn-primary px-10 sm:px-20 text-lg text-[#DBDBDB]">Chat Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     );
 };
 
