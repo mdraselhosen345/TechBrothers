@@ -20,9 +20,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                          {/* Button */}
-                            <div className='hidden md:flex pr-2'>
-                                <button className="btn btn-outline btn-success rounded-3xl">Success</button>
-                            </div>
+
 
     {/* Mobile Menu Button */}
   <div className="md:hidden">

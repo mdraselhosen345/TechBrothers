@@ -8,6 +8,7 @@ import Services from "../Component/Services/Services";
 import About from "../Component/About/About";
 import Skills from "../Component/Skills/Skills";
 import Contact from "../Component/Contact/Contact";
+import Projects from "../Component/Projects/Projects";
 
 export const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
             {
                 path: "Cantact",
                 Component: Contact
+            },
+            {
+                path: "Projects",
+                Component: Projects,
             },
             {
                path: "Footer",
