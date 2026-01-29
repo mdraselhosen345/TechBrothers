@@ -11,13 +11,13 @@ import Projects from '../Projects/Projects';
 const Home = () => {
     return (
 
-        <div className='max-w-7xl'>           
+        <div className='max-w-7xl mx-auto'>           
             <Bannar></Bannar>
             <Services></Services>
-            <About></About>
             <Skills></Skills>
-            <Contact></Contact>
             <Projects></Projects>
+            <About></About>
+            <Contact></Contact>
           
         </div>
     );

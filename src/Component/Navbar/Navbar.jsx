@@ -1,22 +1,32 @@
 import React from 'react';
 import { useState } from "react";
+import { NavLink } from 'react-router-dom';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Skills from '../Skills/Skills';
+import Services from '../Services/Services';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
+
+
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-                <div className="navbar px-4 md:px-10 py-4">
+                <div className="navbar px-4 md:px-10 py-4 mb-10">
                         {/* logo  */}
                             <div className="flex-1">
                                    <a className="fira-sans-black-italic text-2xl sm:text-3xl text-[#0000D1]">Tech<span className='text-[#D1D100]'>Brothers</span></a>
                             </div>
                         {/* Desktop menu */}
                     <div className="hidden md:flex flex-none pr-5">
-                        <ul className="menu menu-horizontal px-1 fira-sans-regular text-base gap-3">
-                            <li><a>Services</a></li>
-                            <li><a>About Me</a></li>
-                            <li><a>Skills</a></li>
-                            <li><a>Projects</a></li>
-                            <li><a>Contact</a></li> 
+                        <ul className="menu menu-horizontal gap-5 px-1 fira-sans-regular text-base">
+                             <NavLink to="/" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Home</NavLink>
+                             <NavLink to="/about" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">About Me</NavLink>
+                             <NavLink to="/skills" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Skills</NavLink>
+                             <NavLink to="/services" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Services</NavLink>
+                             <NavLink to="/projects" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Projects</NavLink>
+                             <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>
                         </ul>
                     </div>
                          {/* Button */}
@@ -44,12 +54,15 @@ const Navbar = () => {
     {/* Mobile Dropdown */}
   {open && (
     <div className="absolute top-16 right-4 bg-[linear-gradient(120deg,#00171d,#0072ff)] shadow-md rounded-lg w-full pl-10 pt-5 z-50 flex flex-col">
-      <a className="px-4 py-2 hover:bg-gray-100">Services</a>
-      <a className="px-4 py-2 hover:bg-gray-100">About Me</a>
-      <a className="px-4 py-2 hover:bg-gray-100">Skills</a>
-      <a className="px-4 py-2 hover:bg-gray-100">Projects</a>
-      <a className="px-4 py-2 hover:bg-gray-100">Contact</a>
-      <button className="btn btn-outline btn-success rounded-3xl m-4">Success</button>
+                             <NavLink to="/" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Home</NavLink>
+                             <NavLink to="/about" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">About Me</NavLink>
+                             <NavLink to="/ckills" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Skills</NavLink>
+                             <NavLink to="/cervices" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Services</NavLink>
+                             <NavLink to="/crojects" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Projects</NavLink>
+                              <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>  
+                            <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>
+
+      
     </div>
   )}
                 </div>

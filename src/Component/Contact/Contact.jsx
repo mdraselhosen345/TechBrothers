@@ -10,6 +10,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { MdAccessTime } from "react-icons/md";
 import { IoIosChatboxes } from "react-icons/io";
+const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
 const Contact = () => {
     return (
@@ -35,7 +36,7 @@ const Contact = () => {
       </div>
       <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
         <BiLogoGmail className='text-[#ADADAD]' size={20}/>
-        <span className='text-[#ADADAD] text-sm'>rashel099009@gmail.com</span>
+        <span className='text-[#ADADAD] text-sm no-underline hover:underline'>rasel.hossenit@gmail.com</span>
       </div>
     </div>
   </div>
@@ -48,7 +49,7 @@ const Contact = () => {
         I am a Frontend Web Developer & IT Support Professional focused on building responsive web interfaces and providing reliable hardware, software, and network support.
       </p>
       <div className='mt-6'>
-        <button className="btn btn-primary rounded-3xl text-[#DBDBDB] text-sm sm:text-base fira-sans-regular">Download CV</button>
+       <a href="/Download.CV.pdf" target="_blank" {...(isMobile ? { download: "Download.CV.pdf" } : {})} rel="noopener noreferrer"  className="btn btn-primary rounded-3xl text-sm sm:text-base fire-sans-regular text-[#DBDBDB]">Download CV</a>
       </div>
     </div>
 
@@ -58,19 +59,19 @@ const Contact = () => {
         <h1 className='text-xl fira-sans-semibold-italic text-[#DBDBDB]'>Social Media</h1>
         <div className='flex gap-3 pt-4 text-[#ADADAD] items-center'>
           <FaLinkedin size={25}/> 
-          <a href="">LinkedIn</a>
+          <a href="" className='no-underline hover:underline'>LinkedIn</a>
         </div>
         <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
           <FaSquareGithub size={25}/> 
-          <a href="">GitHub</a>
+          <a href="https://github.com/mdraselhosen345" target="_blank" className='no-underline hover:underline'>GitHub</a>
         </div>
         <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
           <FaFacebookSquare size={25}/> 
-          <a href="">Facebook</a>
+          <a href="https://www.facebook.com/share/1E3ufxMpR7/" target="_blank" className='no-underline hover:underline'>Facebook</a>
         </div>
         <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
           <FaTwitterSquare size={25}/> 
-          <a href="">Twitter</a>
+          <a href="" className='no-underline hover:underline'>Twitter</a>
         </div>
       </div>
 
@@ -79,7 +80,8 @@ const Contact = () => {
         <h1 className='text-xl fira-sans-semibold-italic text-[#DBDBDB]'>Working Place</h1>
         <div className='flex gap-3 pt-4 text-[#ADADAD] items-center'>
           <FaLocationDot size={25}/> 
-          <span className='text-sm'>Daffodil International University</span>
+          {/* <span className='text-sm'>Daffodil International University</span> */}
+          <a href="https://daffodilvarsity.edu.bd/" target="_blank" className='no-underline hover:underline pl-2'>Daffodil International University</a>
         </div>
         <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
           <MdAccessTime size={25}/>

@@ -7,8 +7,8 @@ import Bannar from "../Component/Bannar/Bannar";
 import Services from "../Component/Services/Services";
 import About from "../Component/About/About";
 import Skills from "../Component/Skills/Skills";
-import Contact from "../Component/Contact/Contact";
 import Projects from "../Component/Projects/Projects";
+import Contact from "../Component/Contact/Contact";
 
 export const router = createBrowserRouter([
     {
@@ -32,16 +32,12 @@ export const router = createBrowserRouter([
                 Component: Services
             },
             {
-                path: "About",
-                Component: About
-            },
-            {
                 path: "Skills",
                 Component: Skills
             },
             {
-                path: "Cantact",
-                Component: Contact
+                path: "About",
+                Component: About
             },
             {
                 path: "Projects",
@@ -49,7 +45,11 @@ export const router = createBrowserRouter([
             },
             {
                path: "Footer",
-               Component: Footer
+               Component: Footer,
+            },
+            {
+                path: "Contact",
+                Component: Contact,
             }
 
         ]

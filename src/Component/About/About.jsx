@@ -1,6 +1,7 @@
 import React from 'react';
 import Aboutpng from '../../assets/Aboutpng (2).png';
 import Aboutpngimg from '../../assets/Aboutpngimg.png';
+const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
 const About = () => {
     return (
@@ -12,9 +13,9 @@ const About = () => {
                    <img src={Aboutpngimg} className='absolute -top-16 sm:-top-20 left-0 w-full h-full object-contain' alt="" />
                    <div className='h-[215px] bg-[#012653] top-0 text-center pt-7 rounded-3xl shadow-2xl shadow-sky-500 mt-71 absolute w-full object-contain'>
                           <h1 className='fira-sans-black text-3xl text-[#C4C4C4]'>MD : RASEL HOSSEN</h1>
-                          <h3 className='pt-2 text-[#808080]'>rashel099009@gmail.com</h3>
+                          <h3 className='pt-2 text-[#808080]'>rasel.hossenit@gmail.com</h3>
                              <div className='sm:gap-5 mt-4 md:mt-5'>
-                                 <button className="btn btn-primary rounded-3xl text-sm sm:text-base fire-sans-regular">Download CV</button>
+                                   <a href="/Download.CV.pdf" target="_blank" {...(isMobile ? { download: "Download.CV.pdf" } : {})} rel="noopener noreferrer"  className="btn btn-primary rounded-3xl text-sm sm:text-base fire-sans-regular text-[#DBDBDB]">Download CV</a>
                              </div>
                    </div>
              </div>

@@ -4,6 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 import { LuDownload } from "react-icons/lu";
 import RaselPng from '../../assets/rasel.png'
 import sitePNg from '../../assets/sitePng.png'
+import { Link } from 'react-router';
+const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
 const Bannar = () => {
     return (
@@ -13,15 +15,16 @@ const Bannar = () => {
                          <div className='md:w-1/2 w-full flex flex-col justify-center md:mt-0 mt-5'>
                                <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-6xl gap-3 md:gap fire-sans-extrabold-italic text-[#DBDBDB] flex flex-wrap'>Hi, I'm <span className='fira-sans-black-italic text-[#cccc35]'>Rasel</span> <span><MdWavingHand className='text-yellow-500'/></span></h1>
                                <h2 className='text-[#C4C4C4] pt-4 sm:pt-5 md:pt-7 text-base sm:text-lg sm:text text-lg md:text-xl'>Frontend Developer 💻 & UI/UX Enthusiast 🎨 
-                                     <br />  Working as IT Staff 🖥️</h2>
+                                     <br />  Working as IT Support Professional 🖥️</h2>
                                 <p className='text-[#969696] text-sm sm:text-base md:text-base fire-sans-light-italic pt-3 md:pt-5'>As a Frontend Developer & UI/UX Enthusiast,
                                    I love building seamless digital experiences.
-                                   I am currently working as IT Staff, combining 
+                                   I am currently working as IT Support Professional, combining 
                                    practical IT knowledge with my design and development skills.
                                  </p>
                                  <div className='flex flex-col sm:flex-row gap-3 sm:gap-5 sm:gap-5 mt-4 md:mt-5'>
-                                     <button className="btn btn-primary text-sm sm:text-base fire-sans-regular text-[#DBDBDB] ">Contact Me <FaArrowRight /></button>
-                                     <button className="btn btn-outline btn-primary text-sm sm:text-base fire-sans-regular"><LuDownload /> Download CV</button>
+                                     <Link to="/contact" className="btn btn-primary text-sm sm:text-base fire-sans-regular text-[#DBDBDB]">Contact Me</Link>
+                                     <a href="/Download.CV.pdf" target="_blank" {...(isMobile ? { download: "Download.CV.pdf" } : {})} rel="noopener noreferrer"  className="btn btn-outline btn-primary text-sm sm:text-base fire-sans-regular text-[#DBDBDB]">Download CV</a>
+
                                  </div>
                          </div>
                          {/* right site */}
