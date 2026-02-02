@@ -96,7 +96,7 @@ const Contact = () => {
       {/* Chat Support */}
       <div className='bg-[#001b3d] rounded-2xl w-full lg:w-[470px] h-auto lg:h-[250px] p-5'>
         <div className='flex gap-3 items-center'>
-          <IoIosChatboxes size={40}/> <h1 className='text-2xl fira-sans-semibold-italic text-[#DBDBDB]'>Chat Support</h1>
+          <IoIosChatboxes className='text-[#ADADAD]' size={40}/> <h1 className='text-2xl fira-sans-semibold-italic text-[#DBDBDB]'>Chat Support</h1>
         </div>
         <p className='text-[13px] mt-1 text-[#ADADAD]'>Get Instant Answer From Our Chat</p>
         <div className='flex justify-center mt-4'>

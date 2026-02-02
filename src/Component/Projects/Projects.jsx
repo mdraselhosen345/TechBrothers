@@ -1,4 +1,5 @@
 import React from 'react';
+import bookPNg from '../../assets/bookPNG.png'
 
 const Projects = () => {
     return (
@@ -11,15 +12,12 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+             src={bookPNg}
              alt="Shoes" />
         </figure>
-        <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-                   <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-             <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-             </div>
+        <div className="card-body text-center">
+          <h2 className="card-title">Books Shope</h2>
+                  <a href="https://marvelous-queijadas-2244b7.netlify.app/" target="_blank">LiveLink</a>
         </div>
 </div>
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
