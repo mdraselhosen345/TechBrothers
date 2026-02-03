@@ -56,12 +56,10 @@ const Navbar = () => {
     <div className="absolute top-16 right-4 bg-[linear-gradient(120deg,#00171d,#0072ff)] shadow-md rounded-lg w-full pl-10 pt-5 z-50 flex flex-col">
                              <NavLink to="/" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Home</NavLink>
                              <NavLink to="/about" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">About Me</NavLink>
-                             <NavLink to="/ckills" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Skills</NavLink>
-                             <NavLink to="/cervices" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Services</NavLink>
-                             <NavLink to="/crojects" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Projects</NavLink>
-                              <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>  
-                            <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>
-
+                             <NavLink to="/skills" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Skills</NavLink>
+                             <NavLink to="/services" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Services</NavLink>
+                             <NavLink to="/projects" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Projects</NavLink>
+                             <NavLink to="/contact" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Contact</NavLink>  
       
     </div>
   )}
