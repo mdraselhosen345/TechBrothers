@@ -42,7 +42,7 @@ const Footer = () => {
     </div>
     <div className='flex gap-5 text-[#ADADAD]'>
                    
-                      <a href=""><FaLinkedin size={25}/></a>              
+                      <a href="https://www.linkedin.com/in/rasel-hossenit/" target="_blank"><FaLinkedin size={25}/></a>              
                     
                       <a href="https://github.com/mdraselhosen345" target="_blank"><FaSquareGithub size={25}/> </a>
                   

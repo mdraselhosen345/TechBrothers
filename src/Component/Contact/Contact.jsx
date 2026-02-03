@@ -59,7 +59,7 @@ const Contact = () => {
         <h1 className='text-xl fira-sans-semibold-italic text-[#DBDBDB]'>Social Media</h1>
         <div className='flex gap-3 pt-4 text-[#ADADAD] items-center'>
           <FaLinkedin size={25}/> 
-          <a href="" className='no-underline hover:underline'>LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rasel-hossenit/" target="_blank" className='no-underline hover:underline'>LinkedIn</a>
         </div>
         <div className='flex gap-3 pt-2 text-[#ADADAD] items-center'>
           <FaSquareGithub size={25}/> 
