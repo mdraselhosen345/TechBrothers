@@ -36,7 +36,7 @@ const Contact = () => {
       </div>
       <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
         <BiLogoGmail className='text-[#ADADAD]' size={20}/>
-        <span className='text-[#ADADAD] text-sm no-underline hover:underline'>rasel.hossenit@gmail.com</span>
+        <span className='text-[#ADADAD] text-sm no-underline hover:underline'>rashel099009@gmail.com</span>
       </div>
     </div>
   </div>
