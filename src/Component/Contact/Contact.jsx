@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
       <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
         <FaPhoneVolume className='text-[#ADADAD]' size={20}/>
-        <span className='text-[#ADADAD] text-sm'>01782299570</span>
+        <span className='text-[#ADADAD] text-sm'>01615458942</span>
       </div>
       <div className='flex justify-center lg:justify-start gap-2 pt-2 items-center'>
         <FaWhatsapp className='text-[#ADADAD]' size={20}/>
