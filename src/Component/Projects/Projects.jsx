@@ -1,8 +1,8 @@
 import React from 'react';
 import bookPNg from '../../assets/bookPNG.png';
-import Banner from '../../assets/web-banner.png';
-import petCare from '../../assets/pet-care-dog.png';
-import NidTaks from '../../assets/Nid-taks.png';
+import Banner from '../../assets/banner.png';
+import petCare from '../../assets/petcare.png';
+import NidTaks from '../../assets/Nidtaks.png';
 import Architects from '../../assets/achitects.png';
 import Mary from '../../assets/Mary.png';
 
