@@ -53,7 +53,7 @@ const Navbar = () => {
   </div>
     {/* Mobile Dropdown */}
   {open && (
-    <div className="absolute top-16 right-4 bg-[linear-gradient(120deg,#00171d,#0072ff)] shadow-md rounded-lg w-full pl-10 pt-5 z-50 flex flex-col">
+    <div className="absolute top-16 right-4 bg-[linear-gradient(120deg,#00171d,#0072ff)] bg-white shadow-md rounded-lg w-full pl-10 pt-5 z-50 flex flex-col">
                              <NavLink to="/" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Home</NavLink>
                              <NavLink to="/about" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">About Me</NavLink>
                              <NavLink to="/skills" className="hover:bg-black px-4 py-1 rounded-xl hover:text-white transition duration-300">Skills</NavLink>
