@@ -1,11 +1,11 @@
 import React from 'react';
-import bookPNg from '../../assets/bookPNG.png';
+import Book from '../../assets/bookPNG.png';
 // import Banner from '../../assets/banner.png';
-import banner from "../../assets/banner.png";
-import petCare from '../../assets/petcare.png';
-import NidTaks from '../../assets/Nidtaks.png';
-import Architects from '../../assets/achitects.png';
-import Mary from '../../assets/Mary.png';
+import Banner from "../../assets/banner.png";
+import Pet from '../../assets/petcare.png';
+import Nid from '../../assets/Nidtaks.png';
+import Archit from '../../assets/achitects.png';
+import Mar from '../../assets/Mary.png';
 
 const Projects = () => {
    return (
@@ -19,7 +19,7 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={bookPNg}
+             src={Book}
              alt="Shoes" />
         </figure>
         <div className="card-body">
@@ -31,7 +31,7 @@ const Projects = () => {
 <div  className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={banner}
+             src={Banner}
              alt="Shoes" />
         </figure>
         <div className="card-body">
@@ -43,7 +43,7 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={petCare}
+             src={Pet}
              alt="Shoes" />
         </figure>
         <div className="card-body">
@@ -55,7 +55,7 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={NidTaks}
+             src={Nid}
              alt="Shoes" />
         </figure>
         <div className="card-body">
@@ -67,7 +67,7 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={Architects}
+             src={Archit}
              alt="Shoes" />
         </figure>
         <div className="card-body">
@@ -79,7 +79,7 @@ const Projects = () => {
 <div href="https://web-profail.netlify.app/" className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={Mary}
+             src={Mar}
              alt="Shoes" />
         </figure>
         <div className="card-body">
