@@ -2,7 +2,7 @@ import React from 'react';
 import Book from '../../assets/bookPNG.png';
 // import Banner from '../../assets/banner.png';
 // import Banner from "../../assets/banner.png";
-import Banner from "../../assets/banner.png";
+import Banner from "../../assets/Design.png";
 import Pet from '../../assets/petcare.png';
 import Nid from '../../assets/Nidtaks.png';
 import Archit from '../../assets/achitects.png';
