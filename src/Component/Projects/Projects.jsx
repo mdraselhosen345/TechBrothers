@@ -1,9 +1,7 @@
 import React from 'react';
 import Book from '../../assets/bookPNG.png';
-// import Banner from '../../assets/banner.png';
-// import Banner from "../../assets/banner.png";
 import Banner from "../../assets/Design.png";
-import Pet from '../../assets/petcare.png';
+import PetCare from '../../assets/petcare.png';
 import Nid from '../../assets/Nidtaks.png';
 import Archit from '../../assets/achitects.png';
 import Mar from '../../assets/Mary.png';
@@ -44,7 +42,7 @@ const Projects = () => {
 <div className="card bg-base-100 image-full w-90 shadow-2xl shadow-black">
         <figure>
            <img
-             src={Pet}
+             src={PetCare}
              alt="Shoes" />
         </figure>
         <div className="card-body">
