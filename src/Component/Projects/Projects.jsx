@@ -1,10 +1,9 @@
-import React from 'react';
-import Book from '../../assets/bookPNG.png';
-import Banner from "../../assets/Design.png";
+import Book from '../../assets/book.png';
+import Banner from '../../assets/Design.png';
 import Pet from '../../assets/pet.png';
 import Nid from '../../assets/Nidtaks.png';
-import Archit from '../../assets/achitects.png';
-import Mar from '../../assets/Mary.png';
+import Archit from '../../assets/architects.png';
+import Mar from '../../assets/mary.png';
 
 const Projects = () => {
    return (
